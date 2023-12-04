@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Easter Egg Hunt</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter the 5-digit combination:</h1>
+        <input type="text" id="combinationInput" maxlength="5">
+        <button onclick="checkCombination()">Unlock</button>
+        <div id="videoContainer" style="display: none;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            <img src="path/to/your/qr-code.png" alt="QR Code">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
